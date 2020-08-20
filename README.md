@@ -17,14 +17,6 @@ nvm install 12
 nvm use 12
 ```
 
-## Authentication
-
-This application uses Basic Authentication. It will prompt for a username and
-password to login. Use a username and password from the `users.js` file in this
-repository, e.g `jane` and `janepass`.
-
-![Login Prompt](screenshots/login.png)
-
 ## Run the Application
 
 ### In Development Mode
@@ -43,3 +35,13 @@ npm run dev
 ```bash
 npm start
 ```
+
+## Authentication
+
+This application uses Basic Authentication. It will prompt for a username and
+password to login.
+
+Use a username and password from the `users.js` file in this repository, e.g
+`jane` and `janepass`.
+
+![Login Prompt](screenshots/login.png)
